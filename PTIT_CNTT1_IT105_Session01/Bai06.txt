@@ -1,10 +1,10 @@
-Tình huống						Mô tả tình huống											Sơ đồ UML phù hợp							Giải thích
-       A			Mô tả chức năng người dùng có thể thực hiện trên ứng dụng học tiếng Anh	Use Case Diagram (Sơ đồ ca sử dụng)	Vì sơ đồ Use Case dùng để mô tả các chức năng của hệ thống và các tác nhân (người dùng) tương tác với hệ thống.
+Tình huống						Mô tả tình huống												Sơ đồ UML phù hợp							Giải thích
+    A			Mô tả chức năng người dùng có thể thực hiện trên ứng dụng học tiếng Anh		Use Case Diagram (Sơ đồ ca sử dụng)		Vì sơ đồ Use Case dùng để mô tả các chức năng của hệ thống và các tác nhân (người dùng) 																																		tương tác với hệ thống.
 
-	B			Mô tả lớp NguoiDung, KhoaHoc, BaiHoc và quan hệ giữa chúng				Class Diagram (Sơ đồ lớp)				Dùng để mô tả các lớp, thuộc tính, phương thức và mối quan hệ (kế thừa, kết hợp, liên kết) giữa các lớp trong hệ thống.
+	B			Mô tả lớp NguoiDung, KhoaHoc, BaiHoc và quan hệ giữa chúng					Class Diagram (Sơ đồ lớp)				Dùng để mô tả các lớp, thuộc tính, phương thức và mối quan hệ (kế thừa, kết hợp, liên kết) 																																		giữa các lớp trong hệ thống.
 
-	C			Mô tả luồng học viên bắt đầu → vào học → làm bài → hoàn thành			Activity Diagram (Sơ đồ hoạt động)		Thể hiện dòng công việc (workflow) hoặc trình tự các hành động trong một quy trình.
+	C			Mô tả luồng học viên bắt đầu → vào học → làm bài → hoàn thành				Activity Diagram (Sơ đồ hoạt động)		Thể hiện dòng công việc (workflow) hoặc trình tự các hành động trong một quy trình.
 
-	D			Mô tả cách hệ thống triển khai trên các máy chủ, thiết bị					Deployment Diagram (Sơ đồ triển khai)	Dùng để mô tả cấu trúc vật lý, cách phần mềm được triển khai lên phần cứng (server, thiết bị, mạng).
+	D			Mô tả cách hệ thống triển khai trên các máy chủ, thiết bị					Deployment Diagram (Sơ đồ triển khai)	Dùng để mô tả cấu trúc vật lý, cách phần mềm được triển khai lên phần cứng (server, thiết 																																		bị, mạng).
 
 	E			Mô tả thứ tự tương tác giữa học viên và hệ thống khi nộp bài				Sequence Diagram (Sơ đồ trình tự)		Thể hiện thứ tự các thông điệp trao đổi giữa các đối tượng (actor – hệ thống) theo thời gian.
