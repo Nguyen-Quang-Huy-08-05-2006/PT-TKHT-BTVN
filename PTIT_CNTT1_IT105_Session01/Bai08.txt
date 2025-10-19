@@ -1,0 +1,38 @@
+1.  Xác định các tác nhân chính và chức năng tương ứng
+Tác nhân						Chức năng chính
+Học viên					 Đăng ký tài khoản và khóa học
+						Tham gia học online (xem bài, làm bài kiểm tra)
+						Xem điểm và phản hồi giảng viên
+
+Giảng viên				 Quản lý bài học (thêm, sửa, xóa nội dung)
+						Nhập điểm, chấm bài
+						 Theo dõi tiến độ học viên
+
+Admin					 Quản lý tài khoản học viên và giảng viên
+						Theo dõi báo cáo thống kê học tập
+						 Phân quyền truy cập và quản trị dữ liệu hệ thống
+
+2. Phân loại hệ thống thông tin phù hợp
+	Chức năng																Loại hệ thống thông tin											Giải thích
+Đăng ký, học, nhập điểm												TPS (Transaction Processing System)				Hệ thống xử lý giao dịch thường xuyên (đăng ký, nộp bài, lưu điểm).
+
+Theo dõi tiến độ học viên, xem báo cáo									MIS (Management Information System)			Cung cấp thông tin tóm tắt giúp giảng viên và quản trị viên theo dõi tình hình học tập.
+
+Thống kê hiệu quả khóa học, đề xuất cải thiện chương trình					DSS (Decision Support System)					Hỗ trợ lãnh đạo/trung tâm đưa ra quyết định chiến lược (mở lớp, điều chỉnh giảng viên, cập nhật nội dung).
+
+
+ 3. Mô hình phát triển phần mềm phù hợp
+Mô hình đề xuất: Agile (Phát triển linh hoạt)
+Lý do chọn:
+	Nền tảng học trực tuyến thường xuyên thay đổi yêu cầu theo phản hồi người dùng.
+	Agile cho phép phát triển theo vòng lặp ngắn (Sprint), dễ cập nhật tính năng mới (ví dụ: thêm video call, quiz, báo cáo tự động).
+	Giúp nhóm phát triển và khách hàng trao đổi liên tục, đảm bảo hệ thống đáp ứng đúng nhu cầu thực tế.
+	Phù hợp với các đội ngũ startup hoặc trung tâm đang mở rộng nhanh.
+
+4. Ba sơ đồ UML sẽ sử dụng khi thiết kế hệ thống
+Tên sơ đồ UML					Mục đích sử dụng
+Use Case Diagram			Mô tả chức năng hệ thống và mối quan hệ giữa các tác nhân (Học viên, Giảng viên, Admin).
+
+Class Diagram			Thiết kế các lớp đối tượng (HọcVien, GiangVien, KhoaHoc, BaiHoc, DiemSo, TaiKhoan) và quan hệ giữa chúng.
+
+Sequence Diagram		Mô tả luồng tương tác theo thời gian, ví dụ: quá trình học viên đăng ký khóa học hoặc giảng viên chấm điểm.

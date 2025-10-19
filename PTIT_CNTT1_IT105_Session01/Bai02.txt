@@ -1,0 +1,23 @@
+Dự án A – Phần mềm quản lý điểm cho trường cấp 2
+→ Mô hình: Waterfall (Thác nước)
+→ Lý do: Yêu cầu đã rõ ràng, ít thay đổi.
+		Quy trình nghiệp vụ ổn định, không phức tạp.
+		Phù hợp với mô hình tuần tự: phân tích → thiết kế → lập trình → kiểm thử → triển khai.
+		Dễ kiểm soát tiến độ, phù hợp với môi trường giáo dục cần tài liệu đầy đủ.
+Tóm gọn: Yêu cầu rõ → Waterfall.
+
+Dự án B – Ứng dụng mobile đặt lịch khám bệnh
+→ Mô hình: Agile (Linh hoạt)
+→ Lý do: Nhu cầu người dùng thay đổi thường xuyên, cần cập nhật nhanh.
+		Phù hợp với việc phát hành bản thử, nhận phản hồi, rồi cải tiến liên tục.
+		Là sản phẩm hướng người dùng, cần tập trung vào trải nghiệm, giao diện, phản hồi thị trường.
+		Agile chia nhỏ công việc theo vòng lặp (Sprint), mỗi vòng có thể thêm hoặc điều chỉnh tính năng.
+ Tóm gọn: Yêu cầu linh hoạt, thay đổi nhanh → Agile.
+
+Dự án C – Hệ thống ngân hàng điện tử
+→ Mô hình: Spiral (Xoắn ốc)
+→ Lý do: Dự án phức tạp, có rủi ro cao về bảo mật và an toàn dữ liệu.
+		Spiral cho phép phát triển theo vòng lặp có đánh giá rủi ro ở từng giai đoạn.
+		Kết hợp ưu điểm của Waterfall (quy trình rõ) và Prototype (thử nghiệm dần).
+		Phù hợp cho hệ thống cần độ tin cậy cao như ngân hàng, quốc phòng, hàng không.
+		Tóm gọn: Phức tạp, rủi ro cao → Spiral.

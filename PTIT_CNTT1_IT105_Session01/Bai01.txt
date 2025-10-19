@@ -1,0 +1,14 @@
+Giao dịch bán hàng
+→ Loại hệ thống: TPS (Transaction Processing System)
+→ Giải thích: Hệ thống xử lý giao dịch giúp ghi nhận các hoạt động hàng ngày như nhập đơn, thanh toán, cập nhật kho, in hóa đơn,…
+→ Ví dụ thực tế: Hệ thống POS tại cửa hàng bán lẻ.
+
+Phân tích xu hướng kinh doanh
+→ Loại hệ thống: DSS (Decision Support System)
+→ Giải thích: Hệ thống hỗ trợ ra quyết định giúp phân tích dữ liệu từ nhiều nguồn để xác định xu hướng, dự báo doanh số và hỗ trợ nhà quản lý ra quyết định.
+→ Ví dụ thực tế: Phân tích dữ liệu bán hàng để xác định sản phẩm bán chạy theo mùa.
+
+Bảng tổng quan hiệu suất hàng tháng dành cho CEO
+→ Loại hệ thống: EIS (Executive Information System)
+→ Giải thích: Hệ thống thông tin dành cho lãnh đạo cung cấp báo cáo tổng hợp, biểu đồ và chỉ số KPI giúp CEO theo dõi tình hình doanh nghiệp ở cấp chiến lược.
+→ Ví dụ thực tế: Dashboard hiển thị doanh thu, lợi nhuận, tỷ lệ tăng trưởng hàng tháng.

@@ -1,0 +1,11 @@
+1. Planning (Lập kế hoạch): Xác định mục tiêu của hệ thống: hỗ trợ giáo viên điểm danh nhanh, giảm gian lận, thống kê chuyên cần. Lập kế hoạch nguồn lực, thời gian và chi phí cho dự án.
+
+2. Analysis (Phân tích yêu cầu): Thu thập yêu cầu từ giảng viên, sinh viên và phòng đào tạo. Phân tích các chức năng cần có như: đăng nhập, điểm danh bằng mã QR hoặc GPS, xem lịch sử điểm danh.
+
+3. Design (Thiết kế hệ thống): Thiết kế giao diện ứng dụng (UI), cơ sở dữ liệu (Database), và kiến trúc hệ thống. Vẽ sơ đồ luồng dữ liệu (DFD), sơ đồ ERD, và xác định mối quan hệ giữa các bảng (Sinh viên, Môn học, Lớp, Buổi học).
+
+4. Implementation (Cài đặt / Lập trình): Lập trình các chức năng: đăng nhập, quét mã QR, ghi nhận điểm danh, hiển thị báo cáo. Tạo API kết nối giữa ứng dụng và cơ sở dữ liệu.
+
+5. Testing (Kiểm thử): Kiểm tra các chức năng: đăng nhập, điểm danh, thống kê,… để phát hiện và sửa lỗi. Thử nghiệm trên nhiều thiết bị để đảm bảo hoạt động ổn định.
+
+6. Deployment & Maintenance (Triển khai và Bảo trì): Cài đặt ứng dụng cho giáo viên và sinh viên sử dụng thực tế. Thu thập phản hồi, cập nhật phiên bản mới, vá lỗi và cải thiện hiệu năng định kỳ.

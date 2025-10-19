@@ -1,0 +1,9 @@
+Con người: Bao gồm khách hàng (người đặt món), nhà hàng (người cung cấp món ăn), tài xế giao hàng, và quản trị viên hệ thống. Họ tương tác với ứng dụng để đặt món, nhận đơn và xử lý đơn hàng.
+
+Dữ liệu: Gồm thông tin người dùng, nhà hàng, menu món ăn, giá, đơn hàng, lịch sử giao dịch, địa chỉ giao hàng, phản hồi khách hàng, và dữ liệu thanh toán.
+
+Quy trình: Chuỗi hoạt động: người dùng đặt món → hệ thống gửi đơn đến nhà hàng → nhà hàng xác nhận → tài xế nhận đơn → giao hàng → khách nhận món → thanh toán → đánh giá.
+
+Phần mềm: Gồm ứng dụng di động (App) và website cho khách hàng, hệ thống quản lý nhà hàng, ứng dụng tài xế, và phần mềm quản trị trung tâm dùng để giám sát hoạt động.
+
+Phần cứng: Bao gồm máy chủ (server) lưu trữ và xử lý dữ liệu, thiết bị di động (điện thoại, tablet) cho người dùng, nhà hàng và tài xế, cùng thiết bị mạng (wifi, router) phục vụ truyền tải thông tin.

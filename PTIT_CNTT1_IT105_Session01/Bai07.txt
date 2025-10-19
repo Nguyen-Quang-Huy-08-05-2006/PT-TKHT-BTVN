@@ -1,0 +1,38 @@
+1. Planning (Lập kế hoạch)
+	Xác định mục tiêu dự án Xây dựng hệ thống giúp người dân đăng ký tiêm chủng nhanh chóng, giảm tải cho trung tâm.
+	Xác định phạm vi và ngân sách, nhân sự tham gia (lập trình, tester, chuyên viên y tế hỗ trợ).
+	Đặt ra timeline sơ bộ cho các giai đoạn phát triển.
+	Phân tích rủi ro ban đầu quá tải hệ thống, bảo mật thông tin cá nhân.
+
+2. Requirement Analysis (Phân tích yêu cầu)
+	Thu thập yêu cầu từ trung tâm y tế, cán bộ quản lý, người dân.
+	Xác định các chức năng chính
+	Đăng ký thông tin cá nhân và mũi tiêm mong muốn.
+	Trung tâm xác nhận, sắp lịch tiêm.
+	Quản lý danh sách người đã tiêmchưa tiêm.
+	Phân tích yêu cầu phi chức năng tốc độ phản hồi, bảo mật dữ liệu, giao diện thân thiện.
+	Viết tài liệu SRS (Software Requirement Specification).
+
+3. System Design (Thiết kế hệ thống)
+	Thiết kế kiến trúc tổng thể chia thành các module (đăng ký, xác nhận lịch, thống kê, quản lý dữ liệu).
+	Thiết kế giao diện người dùng (UI) form đăng ký, lịch tiêm, bảng quản lý.
+	Thiết kế cơ sở dữ liệu bảng NguoiDan, LichTiem, TrangThaiTiem, TaiKhoanQuanLy.
+	Xây dựng sơ đồ Use Case, Class Diagram, Sequence Diagram.
+	Đưa ra mô hình bảo mật để bảo vệ thông tin cá nhân.
+
+4. Implementation (Triển khai & Lập trình)
+	Phân chia công việc cho lập trình viên (frontend, backend, database).
+	Xây dựng API đăng ký, module xác nhận lịch, và hệ thống quản lý người tiêm.
+	Viết code theo chuẩn, tuân thủ mô hình MVC hoặc tương tự.
+	Thực hiện unit test nội bộ trong quá trình lập trình.
+ 5. Testing (Kiểm thử)
+	Thực hiện Integration Test (kiểm thử tích hợp các module).
+	System Test đảm bảo toàn bộ hệ thống chạy đúng yêu cầu.
+	User Acceptance Test (UAT) với nhân viên trung tâm y tế.
+	Sửa lỗi (bug fixing) và tối ưu hiệu năng hệ thống.
+
+ 6. Deployment & Maintenance (Triển khai và bảo trì)
+	Triển khai hệ thống lên máy chủ chính thức hoặc cloud (ví dụ AWS, Azure).
+	Đào tạo nhân viên y tế sử dụng hệ thống.
+	Theo dõi hoạt động thực tế, ghi nhận lỗi và phản hồi người dùng.
+	Cập nhật, bảo trì, thêm tính năng (ví dụ gửi SMS nhắc lịch tiêm, thống kê báo cáo).

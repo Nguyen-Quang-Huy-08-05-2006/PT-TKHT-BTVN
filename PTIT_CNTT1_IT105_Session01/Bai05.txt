@@ -1,0 +1,37 @@
+Giai đoạn 1: Planning (Lập kế hoạch)
+Mục tiêu: Xây dựng hệ thống điểm danh tự động, giảm gian lận, tiết kiệm thời gian và hỗ trợ quản lý tập trung.
+
+ Phạm vi dự án: Dành cho giảng viên, sinh viên và phòng đào tạo trong trường.
+			    Hệ thống hoạt động trên nền web/mobile, có cơ sở dữ liệu tập trung.
+
+Công việc thực hiện: Xác định nhóm dự án: trưởng nhóm, lập trình viên, tester, thiết kế UI/UX, quản lý cơ sở dữ liệu.
+				    Lập kế hoạch thời gian: khoảng 2 tháng (phân tích 1 tuần, thiết kế 2 tuần, lập trình 4 tuần, kiểm thử & triển khai 1 tuần).
+
+Dự trù chi phí: hosting, tên miền, phần mềm hỗ trợ (Figma, VSCode, GitHub, Firebase/MySQL…).
+
+Rủi ro có thể gặp: lỗi quét mã, sai định vị GPS, sinh viên quét thay, quá tải hệ thống.
+
+
+Giai đoạn 2: Requirement Analysis (Phân tích yêu cầu)
+1. Thu thập yêu cầu:
+Giảng viên: tạo buổi học, sinh mã QR, xem danh sách sinh viên điểm danh.
+
+Sinh viên: đăng nhập, quét mã QR để điểm danh.
+
+Phòng đào tạo: xem thống kê điểm danh, xuất báo cáo theo lớp hoặc môn học.
+
+
+2. Phân loại yêu cầu:
+Functional (chức năng): Quản lý tài khoản người dùng (giảng viên, sinh viên, quản trị viên).
+					 Tạo và lưu thông tin buổi học.
+					 Quét mã QR để điểm danh.
+					 Thống kê, xuất báo cáo điểm danh.
+
+Non-functional (phi chức năng): Giao diện thân thiện, dễ sử dụng.
+							Bảo mật dữ liệu sinh viên.
+							Hỗ trợ đa nền tảng (web/mobile).
+							Phản hồi trong < 2 giây sau khi quét mã.
+
+
+3. UML phù hợp:
+Sơ đồ Use Case (Use Case Diagram): Dùng để mô tả các tác nhân (Actor) và chức năng hệ thống.
