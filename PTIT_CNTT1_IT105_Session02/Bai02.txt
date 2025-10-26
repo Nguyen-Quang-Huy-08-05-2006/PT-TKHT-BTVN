@@ -1,0 +1,9 @@
+1. Yêu cầu chức năng (Functional Requirements)
+	- Đăng nhập và xác thực người dùng bằng mật khẩu, vân tay hoặc nhận diện khuôn mặt.
+	 - Chuyển tiền trực tuyến giữa các tài khoản nội bộ và liên ngân hàng.
+	- Tra cứu lịch sử giao dịch và xuất sao kê tài khoản theo thời gian.
+
+ 2. Yêu cầu phi chức năng (Non-functional Requirements)
+	- Bảo mật cao – dữ liệu người dùng và giao dịch được mã hóa end-to-end, tuân thủ chuẩn PCI DSS.
+	- Hiệu năng tốt – thời gian xử lý giao dịch ≤ 3 giây, ứng dụng không bị treo khi tải cao.
+	- Tính sẵn sàng cao (High Availability) – hệ thống hoạt động liên tục 24/7, downtime < 0.1%.

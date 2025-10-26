@@ -1,0 +1,43 @@
+1. Phỏng vấn (Interview)
+Ưu điểm:
+Thu thập thông tin chi tiết, sâu sắc.
+Giúp hiểu rõ quan điểm, mong muốn, và nhu cầu thật của người dùng.
+Có thể đặt câu hỏi mở để khai thác thêm vấn đề.
+
+Hạn chế:
+Tốn thời gian, khó thực hiện với số lượng người lớn.
+Phụ thuộc nhiều vào kỹ năng của người phỏng vấn.
+Khi nên dùng: Khi cần hiểu sâu quy trình nghiệp vụ, mong muốn người dùng, hoặc khai thác yêu cầu ẩn.
+Tình huống ví dụ: Phỏng vấn giảng viên và học viên để hiểu cách họ muốn sử dụng hệ thống học trực tuyến.
+
+2. Quan sát (Observation)
+Ưu điểm:
+Thấy được thực tế hành vi, quy trình làm việc, không bị ảnh hưởng bởi ý kiến chủ quan.
+Phát hiện những vấn đề người dùng không nhận ra.
+
+Hạn chế:
+Mất nhiều thời gian.
+Có thể gây thay đổi hành vi của người bị quan sát.
+Khi nên dùng: Khi muốn hiểu rõ cách công việc thật sự diễn ra tại hiện trường.
+Tình huống ví dụ: Quan sát nhân viên trung tâm y tế nhập dữ liệu tiêm chủng để hiểu quy trình thực tế.
+
+3. Khảo sát (Survey / Questionnaire)
+Ưu điểm:
+Thu thập thông tin từ nhiều người nhanh chóng và tiết kiệm chi phí.
+Dễ thống kê, phân tích số liệu.
+
+Hạn chế:
+Thông tin thường nông, không sâu.
+Có thể nhận câu trả lời thiếu chính xác hoặc qua loa.
+Khi nên dùng: Khi cần thu thập ý kiến số đông (ví dụ đánh giá mức độ hài lòng).
+Tình huống ví dụ: Gửi biểu mẫu Google Form cho 500 học viên để đánh giá trải nghiệm học trực tuyến.
+
+4. Phân tích tài liệu (Document Analysis)
+Ưu điểm: Cung cấp thông tin chính xác, chính thức, đáng tin cậy.
+Giúp hiểu quy trình và quy định hiện có trước khi phỏng vấn hoặc thiết kế.
+
+Hạn chế:
+Tài liệu có thể lỗi thời hoặc không phản ánh thực tế.
+Không cung cấp góc nhìn người dùng.
+Khi nên dùng: Khi hệ thống hiện tại đã có quy trình, quy định hoặc hồ sơ nghiệp vụ.
+Tình huống ví dụ: Phân tích quy định quản lý điểm số, nội quy giảng dạy trước khi thiết kế hệ thống học trực tuyến.

@@ -1,0 +1,35 @@
+1. Người dùng (Users)
+Mô tả: Bao gồm bác sĩ, y tá, nhân viên tiếp đón, quản trị viên và bệnh nhân.
+Tác động:
+Giao diện phải thân thiện, dễ dùng cho nhiều nhóm người có trình độ CNTT khác nhau.
+Cần phân quyền truy cập rõ ràng (ví dụ: bác sĩ xem hồ sơ bệnh án, bệnh nhân chỉ xem lịch hẹn).
+
+2. Phần cứng (Hardware)
+Mô tả: Máy chủ, máy tính tại quầy, thiết bị đầu cuối, máy in, máy quét, thiết bị y tế kết nối mạng.
+Tác động:
+Hệ thống phải tương thích với nhiều loại thiết bị và đảm bảo hiệu suất ổn định.
+Cần hỗ trợ sao lưu và hoạt động 24/7, tránh gián đoạn khi thiết bị lỗi.
+
+3. Phần mềm (Software)
+Mô tả: Hệ điều hành, trình duyệt web, phần mềm cơ sở dữ liệu, các ứng dụng liên kết (ví dụ: bảo hiểm y tế).
+Tác động:
+Hệ thống phải tương thích với các nền tảng sẵn có (Windows, Linux, web-based).
+Đảm bảo tích hợp API để trao đổi dữ liệu giữa các hệ thống.
+
+4. Hệ thống bên ngoài (External Systems)
+Mô tả: Hệ thống bảo hiểm y tế, cổng thanh toán, cơ quan quản lý y tế, nhà cung cấp thuốc.
+Tác động:
+Phải thiết kế giao tiếp dữ liệu an toàn (qua API hoặc định dạng chuẩn như XML/JSON).
+Hệ thống cần tuân thủ quy định của các cơ quan nhà nước về dữ liệu bệnh nhân.
+
+5. Quy trình nghiệp vụ (Business Processes)
+Mô tả: Các quy trình như tiếp nhận bệnh nhân, khám bệnh, xét nghiệm, nhập viện, thanh toán, xuất viện.
+Tác động:
+Hệ thống phải mô phỏng đúng luồng xử lý nghiệp vụ.
+Cần linh hoạt để điều chỉnh khi quy trình thay đổi (ví dụ thêm bước “xét nghiệm nhanh”).
+
+6. Luật lệ và quy định (Legal and Regulatory Requirements)
+Mô tả: Các quy định về bảo mật thông tin bệnh nhân, chuẩn ISO, quy định Bộ Y tế.
+Tác động:
+Hệ thống phải có cơ chế mã hóa dữ liệu, phân quyền nghiêm ngặt và lưu vết truy cập.
+Thiết kế phải tuân thủ quy định lưu trữ hồ sơ y tế điện tử (EMR) của nhà nước.

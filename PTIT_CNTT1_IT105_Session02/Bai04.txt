@@ -1,0 +1,35 @@
+1. Giới thiệu (Introduction)
+Phần này cung cấp cái nhìn tổng quan về hệ thống học trực tuyến, mục tiêu, phạm vi, và đối tượng sử dụng.
+-> Giúp người đọc hiểu lý do phát triển hệ thống và ai sẽ sử dụng nó.
+
+2. Mô tả tổng quan (Overall Description)
+Giới thiệu môi trường hoạt động của hệ thống, các ràng buộc, giả định, và bối cảnh sử dụng.
+-> Là cơ sở để định hình yêu cầu và xác định giới hạn phạm vi của hệ thống.
+
+3. Yêu cầu chức năng (Functional Requirements)
+Mô tả chi tiết các chức năng mà hệ thống phải thực hiện, ví dụ: đăng ký khóa học, quản lý bài giảng, chấm điểm, xem báo cáo học tập.
+-> Là phần quan trọng nhất, thể hiện rõ hệ thống cần làm gì.
+
+4. Yêu cầu phi chức năng (Non-functional Requirements)
+Đề cập đến các yếu tố như hiệu năng, bảo mật, khả năng mở rộng, tính thân thiện với người dùng, độ tin cậy.
+-> Giúp đảm bảo chất lượng vận hành của hệ thống, không chỉ dừng ở mặt tính năng.
+
+5. Giao diện người dùng (User Interface Requirements)
+Mô tả các màn hình chính, bố cục, và luồng tương tác giữa người dùng và hệ thống.
+-> Giúp định hướng cho thiết kế UI/UX và dễ dàng trao đổi giữa dev và khách hàng.
+
+6. Giao diện hệ thống bên ngoài (External Interface Requirements)
+Trình bày cách hệ thống kết nối với các phần mềm hoặc dịch vụ khác như cổng thanh toán, API giảng viên, hay hệ thống quản lý học viên.
+-> Đảm bảo hệ thống có thể tích hợp trơn tru với các nền tảng khác.
+
+7. Các ràng buộc thiết kế (Design Constraints)
+Liệt kê các giới hạn về công nghệ, ngôn ngữ lập trình, cơ sở dữ liệu, hoặc quy định pháp lý cần tuân theo.
+-> Giúp đội phát triển không vi phạm yêu cầu kỹ thuật hoặc pháp lý.
+
+8. Giả định và phụ thuộc (Assumptions and Dependencies)
+Trình bày các điều kiện được giả định là đúng (ví dụ: người học có Internet ổn định) và các yếu tố mà hệ thống phụ thuộc vào (như server trung tâm).
+-> Giúp nhận diện rủi ro khi các yếu tố này thay đổi.
+
+9. Phụ lục (Appendix)
+Bao gồm các thuật ngữ, biểu đồ, tài liệu tham khảo, hoặc quy ước sử dụng trong SRS.
+-> Tăng tính rõ ràng và hỗ trợ người đọc tra cứu nhanh khi cần.

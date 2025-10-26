@@ -1,0 +1,18 @@
+ 			Vai trò															Đối tượng cụ thể									Mô tả vai trò / Lợi ích / Mức độ tham gia
+1. Người dùng cuối (End Users)												- Sinh viên / học viên 									- Sử dụng hệ thống để mượn/trả sách, tra cứu tài liệu.
+																		- Giảng viên / giáo viên 								- Quản lý kho sách, xử lý yêu cầu mượn.
+																		- Thủ thư	  											- Cung cấp phản hồi, góp ý về trải nghiệm sử dụng.
+
+2. Nhà tài trợ (Sponsor)														- Ban giám hiệu trường 								- Cấp ngân sách, phê duyệt và ra quyết định triển khai hệ thống.
+																		- Phòng quản lý đào tạo hoặc phòng CNTT				- Đặt ra mục tiêu và yêu cầu tổng thể của dự án.
+
+3. Chuyên gia nghiệp vụ (Business Experts)									- Thủ thư trưởng 										- Đưa ra quy trình nghiệp vụ của thư viện (mượn, trả, đặt trước, xử phạt).
+																		- Trưởng khoa / Quản lý học vụ							- Hỗ trợ đội kỹ thuật trong việc hiểu đúng quy trình thực tế.
+
+4. Bộ phận kỹ thuật (Technical Team)	- Lập trình viên
+																		- Kiểm thử viên (Tester)									- Phân tích, thiết kế, phát triển và bảo trì hệ thống.
+																		- Quản trị hệ thống (System Admin)						- Đảm bảo hệ thống vận hành ổn định, bảo mật và hiệu suất cao.
+
+5. Bên thứ ba (Third Parties)												- Nhà cung cấp phần mềm / API 						- Cung cấp công cụ, dịch vụ hoặc dữ liệu hỗ trợ hệ thống.
+																		- Dịch vụ thanh toán trực tuyến (nếu có) 					- Đảm bảo tính tương thích, hỗ trợ kỹ thuật khi tích hợp.s
+																		- Nhà cung cấp dữ liệu sách (ISBN, metadata)

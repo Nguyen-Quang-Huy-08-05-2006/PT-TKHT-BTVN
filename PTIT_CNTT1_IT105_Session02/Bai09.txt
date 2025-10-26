@@ -1,0 +1,80 @@
+Đề cương tài liệu SRS – Hệ thống đặt món ăn tại quán
+1. Giới thiệu (Introduction)
+1.1. Mục đích (Purpose)
+Giới thiệu mục đích của tài liệu SRS và phạm vi sử dụng — phục vụ cho nhóm phát triển, quản lý, và khách hàng.
+
+1.2. Phạm vi hệ thống (System Scope)
+Mô tả tổng quan hệ thống đặt món ăn: cho phép khách hàng xem menu, đặt món, thanh toán và theo dõi đơn hàng.
+
+1.3. Định nghĩa, từ viết tắt (Definitions, Acronyms)
+Liệt kê các thuật ngữ như POS (Point of Sale), API, Order ID, v.v. để đảm bảo hiểu thống nhất.
+
+1.4. Tài liệu tham khảo (References)
+Liệt kê các tài liệu, quy chuẩn hoặc hướng dẫn được sử dụng trong quá trình xây dựng hệ thống.
+
+2. Tổng quan hệ thống (Overall Description)
+
+2.1. Góc nhìn sản phẩm (Product Perspective)
+Giải thích mối quan hệ của hệ thống với các hệ thống khác, như máy POS, phần mềm quản lý kho, hoặc cổng thanh toán.
+
+2.2. Chức năng người dùng (User Classes and Characteristics)
+Mô tả các loại người dùng: khách hàng, nhân viên phục vụ, quản lý nhà hàng, đầu bếp.
+
+2.3. Giới hạn và ràng buộc (Constraints)
+Liệt kê các ràng buộc về kỹ thuật, pháp lý, hoặc phần cứng (ví dụ: chạy trên thiết bị Android, kết nối Internet ổn định).
+
+2.4. Giả định và phụ thuộc (Assumptions and Dependencies)
+Nêu các giả định (ví dụ: khách hàng có thiết bị thông minh) và các hệ thống phụ thuộc (ví dụ: cổng thanh toán MoMo).
+
+3. Yêu cầu chức năng (Functional Requirements)
+
+3.1. Đăng nhập và đăng ký người dùng
+Người dùng có thể tạo tài khoản hoặc đăng nhập để đặt món.
+
+3.2. Xem menu và chọn món ăn
+Hệ thống hiển thị danh sách món ăn theo danh mục, giá, mô tả, và hình ảnh.
+
+3.3. Đặt món và thanh toán
+Khách hàng chọn món, xác nhận đơn hàng, chọn phương thức thanh toán (tiền mặt hoặc online).
+
+3.4. Theo dõi đơn hàng và nhận thông báo
+Hệ thống cập nhật trạng thái đơn hàng (đang chuẩn bị, đã giao, hoàn tất) và gửi thông báo cho khách.
+
+3.5. Quản lý đơn hàng (cho nhân viên và quản lý)
+Nhân viên bếp nhận danh sách món cần chế biến, quản lý có thể thống kê doanh thu, xem lịch sử đơn hàng.
+
+4. Yêu cầu phi chức năng (Non-functional Requirements)
+
+4.1. Hiệu năng (Performance)
+Hệ thống phản hồi yêu cầu người dùng trong vòng 2 giây.
+
+4.2. Bảo mật (Security)
+Dữ liệu người dùng và giao dịch được mã hóa, có cơ chế xác thực bảo vệ tài khoản.
+
+4.3. Khả năng mở rộng (Scalability)
+Cho phép thêm nhiều chi nhánh hoặc người dùng mà không ảnh hưởng hiệu năng.
+
+4.4. Giao diện người dùng (Usability)
+Giao diện thân thiện, dễ thao tác cho cả khách hàng và nhân viên.
+
+5. Ràng buộc hệ thống (System Constraints)
+
+5.1. Phần cứng và nền tảng
+Yêu cầu chạy ổn định trên web và thiết bị di động (Android/iOS).
+
+5.2. Công nghệ sử dụng
+Sử dụng cơ sở dữ liệu MySQL và framework web như React hoặc Angular.
+
+6. Các yêu cầu khác (Other Requirements)
+
+6.1. Sao lưu và khôi phục dữ liệu (Backup & Recovery)
+Hệ thống tự động sao lưu dữ liệu đơn hàng hàng ngày.
+
+6.2. Bảo trì và cập nhật (Maintenance)
+Cần có kế hoạch cập nhật định kỳ để vá lỗi và cải thiện hiệu năng.
+
+6.3. Nhật ký hoạt động (Logging)
+Lưu trữ lịch sử thao tác của người dùng để kiểm tra và xử lý sự cố.
+
+7. Phụ lục (Appendix)
+Bao gồm sơ đồ UML (Use Case, Class Diagram, Sequence Diagram), biểu đồ luồng dữ liệu (DFD), và mô tả API nếu có.

@@ -1,0 +1,24 @@
+Mua hàng online
+
+I. Yêu cầu chức năng (Functional Requirements)
+1. Đăng ký và đăng nhập người dùng
+Cho phép người dùng tạo tài khoản, đăng nhập, và quản lý thông tin cá nhân.
+
+2. Tìm kiếm và xem chi tiết sản phẩm
+Hệ thống cho phép tìm kiếm theo tên, loại hàng, giá hoặc thương hiệu, và hiển thị thông tin chi tiết của sản phẩm.
+
+3. Thêm sản phẩm vào giỏ hàng và đặt hàng
+Người dùng có thể chọn nhiều sản phẩm, thêm vào giỏ hàng, cập nhật số lượng và tiến hành đặt mua.
+
+4. Thanh toán và xác nhận đơn hàng
+Hệ thống hỗ trợ thanh toán online (thẻ, ví điện tử, COD) và gửi email hoặc thông báo xác nhận đơn hàng thành công.
+
+II. Yêu cầu phi chức năng (Non-functional Requirements)
+1. Hiệu năng (Performance)
+Hệ thống phải xử lý đơn hàng trong vòng dưới 3 giây sau khi người dùng nhấn “Đặt hàng”.
+
+2. Bảo mật (Security)
+Dữ liệu người dùng (thông tin cá nhân, tài khoản, thanh toán) phải được mã hóa và chỉ cho phép truy cập bởi người có thẩm quyền.
+
+3. Khả năng mở rộng (Scalability)
+Hệ thống có thể mở rộng để phục vụ hàng chục nghìn người dùng truy cập cùng lúc trong mùa khuyến mãi hoặc lễ Tết.

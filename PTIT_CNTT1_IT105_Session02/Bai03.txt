@@ -1,0 +1,25 @@
+1. Người dùng (Users):
+Gồm người mua hàng, người bán hàng, nhân viên chăm sóc khách hàng và quản trị viên hệ thống.
+Người mua sử dụng ứng dụng để tìm kiếm, đặt hàng và thanh toán.
+Người bán dùng để đăng sản phẩm, xử lý đơn hàng và theo dõi doanh thu.
+Nhân viên Shopee sử dụng hệ thống quản trị để kiểm duyệt, hỗ trợ giao dịch và giải quyết khiếu nại.
+
+2. Phần cứng (Hardware):
+Bao gồm điện thoại di động, máy tính, máy chủ trung tâm dữ liệu (server), thiết bị lưu trữ và hệ thống mạng.
+Người dùng truy cập qua thiết bị cá nhân (smartphone, laptop), còn Shopee vận hành hệ thống trên các cụm máy chủ có cấu hình cao, hỗ trợ cân bằng tải và bảo mật.
+
+3. Phần mềm (Software):
+Ứng dụng Shopee trên Android, iOS và web.
+Phần mềm máy chủ sử dụng các dịch vụ backend, cơ sở dữ liệu (MySQL, Redis, Elasticsearch), API kết nối đến các đối tác vận chuyển và thanh toán.
+Ngoài ra còn có phần mềm hỗ trợ phân tích dữ liệu, AI gợi ý sản phẩm và hệ thống quản lý nội dung.
+
+4. Hệ thống bên ngoài (External Systems):
+Bao gồm các đơn vị vận chuyển (GHN, J&T, Viettel Post), cổng thanh toán (ShopeePay, MoMo, thẻ ngân hàng), hệ thống email/SMS gửi thông báo cho người dùng, và mạng xã hội (Facebook, Google) dùng cho đăng nhập nhanh.
+
+5. Quy trình nghiệp vụ (Business Processes):
+Quy trình chính bao gồm: người mua đặt hàng → người bán xác nhận → vận chuyển giao hàng → người mua nhận hàng và đánh giá → Shopee xử lý thanh toán.
+Bên cạnh đó còn có quy trình hỗ trợ hoàn tiền, đổi trả và khuyến mãi.
+
+6. Luật lệ và quy định (Legal Regulations):
+Shopee phải tuân thủ luật Thương mại điện tử, luật Bảo vệ người tiêu dùng, và các quy định về thuế, bảo mật thông tin cá nhân theo pháp luật Việt Nam.
+Ngoài ra, các điều khoản và chính sách riêng của Shopee (như Chính sách bảo vệ người mua, quy định người bán) cũng là yếu tố ràng buộc trong hệ thống.

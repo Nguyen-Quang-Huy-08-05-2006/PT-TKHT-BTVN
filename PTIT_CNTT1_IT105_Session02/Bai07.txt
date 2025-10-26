@@ -1,0 +1,45 @@
+1. Stakeholder: Khách hàng (Customer)
+Vai trò: Người đặt hàng, theo dõi đơn và nhận hàng.
+Mối quan tâm:
+Giao hàng nhanh, đúng thời gian và đúng sản phẩm.
+Dễ dàng theo dõi trạng thái đơn hàng.
+Có thể liên hệ hỗ trợ khi có sự cố.
+Mức độ ưu tiên: Critical
+
+2. Stakeholder: Tài xế giao hàng (Shipper/Driver)
+Vai trò: Người nhận nhiệm vụ và thực hiện giao hàng.
+Mối quan tâm:
+Nhận thông tin đơn hàng rõ ràng, chính xác.
+Có bản đồ chỉ đường và định tuyến tối ưu.
+Cập nhật trạng thái giao hàng dễ dàng.
+Mức độ ưu tiên: Critical
+
+3. Stakeholder: Quản lý vận hành (Operation Manager)
+Vai trò: Giám sát tình trạng giao hàng, phân công tài xế, xử lý sự cố.
+Mối quan tâm:
+Có bảng điều khiển hiển thị tình trạng giao hàng theo thời gian thực.
+Báo cáo hiệu suất tài xế và tỷ lệ giao hàng đúng hẹn.
+Mức độ ưu tiên: Major
+
+4. Stakeholder: Đối tác cửa hàng (Seller/Partner Shop)
+Vai trò: Cung cấp hàng hóa để FastDelivery vận chuyển đến khách.
+Mối quan tâm:
+Được thông báo khi tài xế đến lấy hàng.
+Hệ thống ghi nhận chính xác thời gian giao – nhận.
+Dữ liệu đối soát đơn hàng minh bạch.
+Mức độ ưu tiên: Major
+
+5. Stakeholder: Bộ phận kỹ thuật (IT Support / Dev Team)
+Vai trò: Xây dựng, bảo trì và khắc phục lỗi hệ thống.
+Mối quan tâm:
+Ứng dụng hoạt động ổn định, dễ mở rộng.
+Cấu trúc cơ sở dữ liệu an toàn, dễ bảo trì.
+Có log hệ thống rõ ràng để xử lý lỗi nhanh.
+Mức độ ưu tiên: Minor
+
+6. Stakeholder (tuỳ chọn): Ban giám đốc (CEO/Management)
+Vai trò: Ra quyết định chiến lược, theo dõi doanh thu, chi phí vận hành.
+Mối quan tâm:
+Báo cáo tổng hợp hiệu suất hệ thống.
+Lợi nhuận và chỉ số tăng trưởng.
+Mức độ ưu tiên: Major
