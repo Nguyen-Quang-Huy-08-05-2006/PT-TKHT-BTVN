@@ -1,0 +1,10 @@
+1. Actor:
+Sinh viên: Người trực tiếp sử dụng hệ thống để đăng ký môn.
+Hệ thống quản lý môn học: Xử lý thông tin, kiểm tra trùng lịch, xác nhận đăng ký.
+
+2. Use Case:
+Đăng nhập: Sinh viên truy cập vào hệ thống bằng tài khoản cá nhân
+Đăng ký môn học: Sinh viên chọn môn muốn học trong kỳ
+Kiểm tra lịch học: Hệ thống hiển thị thời khóa biểu hiện tại
+Xem môn học trùng giờ: Hệ thống kiểm tra và thông báo môn bị trùng lịch
+Xác nhận đăng ký: Sinh viên xác nhận các môn học đã chọn
