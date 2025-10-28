@@ -1,0 +1,20 @@
+Actor
+Học viên: Người đăng ký, học và xem điểm
+Giảng viên: Người dạy, chấm bài và theo dõi tiến độ học viên
+Quản trị hệ thống (Admin): Quản lý tài khoản, khóa học và kiểm duyệt nội dung
+
+Use Case tương ứng:
+Học viên:
+	- Đăng ký học
+	- Học online
+	- Xem điểm	
+	- Nộp bài tập
+	- Đánh giá khóa học
+Giảng viên:
+	- Tạo khóa học
+	- Chấm bài
+	- Xem phản hồi học viên
+Quản trị	:
+	- Quản lý người dùng
+	- Quản lý khóa học	
+	- Khóa / mở tài khoản người dùng
