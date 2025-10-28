@@ -1,0 +1,7 @@
+
+| Use Case A              |        Use Case B        | Mối quan hệ |                                                     Giải thích                                                |
+|----------------------------|---------------------------|-------------------|----------------------------------------------------------------------------------------------|
+| Đặt hàng                  | Kiểm tra giỏ hàng  | «include»      | Khi người dùng đặt hàng, hệ thống luôn kiểm tra giỏ hàng trước.     |
+| Đặt hàng                  | Đề xuất hoá đơn    | «include»      | Sau khi đặt hàng, hệ thống luôn tự động tạo hoặc đề xuất hoá đơn. |
+| Đặt hàng           	    | Xem đánh giá         | «extend»       | Người dùng có thể mở rộng xem đánh giá sản phẩm trước khi mua. |
+| Kiểm tra giỏ hàng  | Xem đánh giá         | association    | Hai chức năng có thể liên kết nhau, không bao hàm hay mở rộng.     |

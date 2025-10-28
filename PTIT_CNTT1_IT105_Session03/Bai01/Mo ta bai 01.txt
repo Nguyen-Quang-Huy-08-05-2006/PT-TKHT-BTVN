@@ -1,0 +1,15 @@
+1. Mô tả
+Trong ứng dụng xem phim, người dùng có thể xem chi tiết thông tin của một bộ phim.
+Từ chức năng này, người dùng có thể mở rộng để:
+- Xem trailer của phim.
+- Xem bình luận của người khác.
+
+ 2. Use Case Diagram
+- Actor: Người dùng
+- Use Case chính: Xem chi tiết phim
+- Use Case mở rộng (extend):
+  - Xem trailer
+  - Xem bình luận
+- Mối quan hệ: 
+  - (Xem trailer) «extend» (Xem chi tiết phim)
+  - (Xem bình luận) «extend» (Xem chi tiết phim)

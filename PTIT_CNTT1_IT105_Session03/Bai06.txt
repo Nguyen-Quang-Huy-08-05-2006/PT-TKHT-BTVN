@@ -1,0 +1,21 @@
+Actor:
+Khách hàng (Primary Actor)
+Hệ thống giao đồ ăn (System)
+
+Mục tiêu:
+Khách hàng có thể chọn món ăn, xác nhận đơn hàng và tiến hành thanh toán để đặt món thành công.
+
+Luồng chính:
+Khách hàng mở ứng dụng và đăng nhập vào hệ thống.
+Khách hàng tìm kiếm món ăn hoặc nhà hàng mong muốn.
+Khách hàng chọn món ăn, thêm vào giỏ hàng.
+Khách hàng xem lại giỏ hàng và xác nhận đơn hàng.
+Hệ thống tính toán tổng tiền (bao gồm phí giao hàng, khuyến mãi nếu có).
+Khách hàng chọn phương thức thanh toán (tiền mặt hoặc online).
+Hệ thống xử lý thanh toán.
+Khi thanh toán thành công, hệ thống tạo đơn hàng mới và thông báo “Đặt hàng thành công”.
+
+Luồng lỗi:
+Nếu món ăn đã hết hàng: hệ thống hiển thị thông báo “Món ăn tạm thời không khả dụng”.
+Nếu thanh toán thất bại: hệ thống hiển thị thông báo lỗi “Thanh toán không thành công, vui lòng thử lại”.
+Nếu kết nối mạng gián đoạn: hệ thống yêu cầu người dùng kiểm tra lại kết nối và thử lại sau.

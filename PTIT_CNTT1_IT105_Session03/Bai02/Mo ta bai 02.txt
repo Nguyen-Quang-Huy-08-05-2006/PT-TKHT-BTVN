@@ -1,0 +1,11 @@
+1. Mô tả
+Trong hệ thống đặt hàng, chức năng “Đặt hàng” luôn bao gồm hai bước:
+- Kiểm tra giỏ hàng
+- Tính phí vận chuyển
+
+2. Use Case Diagram
+- Actor: Khách hàng
+- Use Case chính: Đặt hàng
+- Use Case phụ (include):
+  - Kiểm tra giỏ hàng
+  - Tính phí vận chuyển

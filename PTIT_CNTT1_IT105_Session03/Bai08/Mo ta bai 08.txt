@@ -1,0 +1,12 @@
+1. Actor
+Tên Actor	Mô tả ngắn
+Khách hàng	Người dùng mua hàng qua ứng dụng
+Người bán (Shop)	Đăng bán, quản lý sản phẩm và đơn hàng
+Hệ thống thanh toán	Xử lý các giao dịch, ví ShopeePay, thẻ ngân hàng...
+2. Use Case
+Use Case	Mô tả
+Đăng nhập / Đăng ký	Người dùng truy cập vào hệ thống bằng tài khoản
+Tìm kiếm sản phẩm	Khách hàng tìm kiếm sản phẩm mong muốn
+Đặt hàng	Khách hàng chọn mua sản phẩm và tiến hành thanh toán
+Quản lý đơn hàng	Người bán xem, xác nhận và cập nhật trạng thái đơn
+Thanh toán	Hệ thống xử lý giao dịch và xác nhận thanh toán thành công
